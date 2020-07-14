@@ -311,3 +311,28 @@ footer a{
   }
 }
 /* /footer-top */
+
+/* footer-bottom */
+.final-list li{
+  display: inline;
+}
+
+.final-list-left li{
+  padding-right: 5%;
+}
+
+.final-list-right{
+  text-align: right;
+  font-size: 12px;
+}
+
+.final-list-right li{
+  padding-left: 5%;
+}
+
+.last-section{
+  bottom: 100%;
+}
+
+/* /footer-bottom */
+/* /FOOTER */
