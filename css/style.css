@@ -119,3 +119,35 @@ a{
     max-width: 200px;
   }
 }
+/* /header main */
+
+/* MAIN */
+/* section first */
+.column-learn{
+  /* background-color: #FAFAFA; */
+  background-color: lightcoral;
+  text-align: center;
+  margin: 5% 1%;
+  height: 500px;
+  width: 48%;
+  line-height: 50px;
+}
+
+.column-learn-bike{
+  float: right;
+}
+
+.column-learn a{
+  color: #0070C8;
+  padding:
+}
+
+.logo-learn{
+  max-width: 200px;
+}
+
+.market-helbiz{
+  display: block;
+  max-width: 400px;
+}
+/* /section first */
