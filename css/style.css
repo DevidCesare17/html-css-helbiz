@@ -124,30 +124,30 @@ a{
 /* MAIN */
 /* section first */
 .column-learn{
-  /* background-color: #FAFAFA; */
-  background-color: lightcoral;
+  position: relative;
+  background-color: #FAFAFA;
   text-align: center;
-  margin: 5% 1%;
+  margin: 5% 0;
   height: 500px;
-  width: 48%;
   line-height: 50px;
+  padding: 3%;
 }
 
-.column-learn-bike{
+/* .column-learn-bike{
   float: right;
-}
+} */
 
 .column-learn a{
   color: #0070C8;
-  padding:
+  margin-bottom: 3%;
 }
 
 .logo-learn{
-  max-width: 200px;
+  max-width: 250px;
 }
 
-.market-helbiz{
-  display: block;
-  max-width: 400px;
+.market-helbiz img{
+  max-height: 300px;
+  max-width: 100%;
 }
 /* /section first */
