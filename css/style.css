@@ -2,6 +2,10 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+main, section{
+  margin: 5% 0;
+}
+
 a{
   text-decoration: none;
 }
@@ -124,13 +128,17 @@ a{
 /* MAIN */
 /* section first */
 .column-learn{
-  position: relative;
   background-color: #FAFAFA;
   text-align: center;
-  margin: 5% 0;
+  border-right: 10px solid #ffffff;
   height: 600px;
   line-height: 50px;
   padding: 3%;
+}
+
+.column-learn-bike{
+  border-right: none;
+  border-left: 10px solid #ffffff;
 }
 
 .column-learn a{
@@ -161,5 +169,70 @@ a{
 /* /section second */
 
 /* section third */
+.bgcolor-green{
+  margin-top: 50px;
+  background: linear-gradient(90deg, #87431d, #025e11);
+}
 
+.bg-color-title{
+  height: 400px;
+  text-align: center;
+  padding: 3% 10%;
+}
+
+.bg-color-title h2{
+  color: #ffffff;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.bg-color-title p{
+  color: #ffffff;
+  font-size: 20px;
+  padding: 7% 0;
+}
+
+.bg-color-title a{
+  color: #ffffff;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px){
+  .bg-color-title{
+    height: 300px;
+  }
+}
+
+.bg-color-blue{
+  border-right: 10px solid #ffffff;
+  margin-top: 30px;
+  padding: 7% 5%;
+  height: 600px;
+  background: linear-gradient(180deg, #3F5467, #263039);
+}
+
+.bg-color-blue h2{
+  padding-bottom: 20px;
+}
+
+.bg-color-blue li{
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+
+.bg-city{
+  border-left: 10px solid #ffffff;
+  margin-top: 30px;
+  padding: 7% 10%;
+  height: 600px;
+  background-image: url(../img/washington.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-city h2{
+  padding-bottom: 20px;
+}
 /* /section third */
