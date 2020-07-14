@@ -128,14 +128,10 @@ a{
   background-color: #FAFAFA;
   text-align: center;
   margin: 5% 0;
-  height: 500px;
+  height: 600px;
   line-height: 50px;
   padding: 3%;
 }
-
-/* .column-learn-bike{
-  float: right;
-} */
 
 .column-learn a{
   color: #0070C8;
@@ -147,7 +143,23 @@ a{
 }
 
 .market-helbiz img{
-  max-height: 300px;
+  max-height: 400px;
   max-width: 100%;
 }
+
+@media screen and (max-width: 992px) and (min-width: 769px){
+  .column-learn{
+    height: 500px;
+  }
+}
 /* /section first */
+
+/* section second */
+.section-second img{
+  width: 100%;
+}
+/* /section second */
+
+/* section third */
+
+/* /section third */
