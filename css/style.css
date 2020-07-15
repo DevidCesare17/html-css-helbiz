@@ -160,6 +160,12 @@ a{
     height: 500px;
   }
 }
+
+@media screen and (max-width: 768px){
+  .column-learn{
+    border: none;
+  }
+}
 /* /section first */
 
 /* section second */
