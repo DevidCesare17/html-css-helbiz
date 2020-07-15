@@ -296,7 +296,7 @@ footer a{
 
 @media screen and (max-width: 768px){
   .footer-bg{
-    height: 1200px;
+    height: 1400px;
   }
   footer .final-title{
     padding: 20px 0;
@@ -313,26 +313,63 @@ footer a{
 /* /footer-top */
 
 /* footer-bottom */
-.final-list li{
-  display: inline;
+.final-list-left{
+  height: 50px;
 }
 
 .final-list-left li{
-  padding-right: 5%;
+  display: inline;
+  padding-right: 15px;
+  font-size: 22px;
 }
 
 .final-list-right{
   text-align: right;
   font-size: 12px;
+  padding-left: 10px;
 }
 
 .final-list-right li{
-  padding-left: 5%;
+  display: inline;
+  padding-left: 20px;
 }
 
 .last-section{
-  bottom: 100%;
+  padding: 100px 0;
 }
 
+.last-img{
+  max-width: 150px;
+}
+
+.last-img img{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px){
+  .final-list-left{
+    height: 40px;
+  }
+  .final-list-right{
+    text-align: center;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .final-list-left{
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .final-list-right{
+    text-align: center;
+    padding-top: 30px;
+  }
+  .last-img img{
+    margin: auto;
+    text-align: center;
+  }
+}
 /* /footer-bottom */
 /* /FOOTER */
